@@ -1,6 +1,6 @@
 <link href="index.css" rel="stylesheet" type="text/css">
 
-# <a id="top">Heroku Workshop - Java & Play framework</a>
+# <a id="top">Heroku Workshop - Building lightweight JavaScript apps with Meteor</a>
 
 This workshop will give you experience deploying and managing an application on Heroku, an elastic polyglot platform.
 
@@ -12,6 +12,9 @@ The workshop is arranged in the following sections:
 
 * [Chapter 0: Setting up your environment](00-setting-up-your-environment.html)
 * [Chapter 1: Getting started with your app](01-getting-started-with-your-app.html)
+
+<!-- Work in progress
+
 * [Chapter 2: Manage your project changes with Git](02-manage-your-project-changes-with-git.html)
 * [Chapter 3: Deploy your application on Heroku](03-deploy-your-application-on-heroku.html)
 * [Chapter 4: Developer workflow for Git and Heroku](04-developer-workflow-for-git-and-heroku.html)
@@ -30,13 +33,20 @@ The workshop is arranged in the following sections:
 * [Chapter 17: Performance Monitoring with New Relic (optional)](17-monitoring-your-application-with-new-relic.html)
 * [Appendix A: Additional Resources](A1-additional-resources.md)
 
+-->
+
+Other workshops in this series include:
+
+* [http://enterprise-workshop.herokuapp.com/](Enterprise Java Workshop) - building a Java Spring MVC application and integrating it with a Force.com organisation.
+* [http://java-play-workshop.herokuapp.com/](Java Play Workshop) - build a modern Java application using the Play Framework
+
 
 [Back to top...](#top)
 
 [Back to Workshop home](/index.html)
 
 
-    Document Date: June 04, 2013
+    Document Date: June 05, 2013
     Document Home: http://javascript-meteor-workshop.herokuapp.com
     Github repo  : https://github.com/salesforce-heroku-workshops/javascript-meteor-workshop
 
