@@ -67,7 +67,7 @@
   If you have only one public key, this command will just add it to heroku without prompting.  If you have more than one pubic key then heroku will prompt you as to which key you want to add.
   
 
-# Setting up Github
+# Setting up Git
 
   When you install the Heroku toolbelt it includes a Git client.  You can also use any other git client you want, either command line or graphical tool.
   
@@ -85,19 +85,19 @@
   If you are still finding your way with Git, take a look at the seperate Git and Github tutorial](http://git-and-github-workshop.herokuapp.com/).
   
 
-## Download & install Meteor JavaScript framework
+## Download & install the Meteor framework
 
 ### Linux and MacOSX
 Run the following command in a terminal to download and install Meteor.  
 
-[TODO]
+    curl https://install.meteor.com | /bin/sh
 
 **Note: You will need to supply your operating system password when Meteor is installing as it is placed in a protected part of the file system.**
-
 
   
 ### Microsoft Windows
 
+A specific Microsoft windows download is available at: [http://win.meteor.com/].
 
 
 ### Test Play framework is working
