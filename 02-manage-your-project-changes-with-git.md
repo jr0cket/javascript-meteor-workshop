@@ -38,8 +38,9 @@
     git commit -m "Initial Java Play project created"
 
 
+  *Make sure you add the .meteor folder to git otherwise Heroku will not recognise your project as a Meteor project*
+  
 <a href="images/02x03-git-add-git-status.png"><img src="images/02x03-git-add-git-status.png" width="640"></a>
-
 
   
   Any changes you now make to these project files can be tracked using *git status*.
