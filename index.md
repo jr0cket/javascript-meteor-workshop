@@ -12,10 +12,9 @@ The workshop is arranged in the following sections:
 
 * [Chapter 0: Setting up your Heroku & application development environment](00-setting-up-your-environment.html)
 * [Chapter 1: Getting started with your app](01-getting-started-with-your-app.html)
-
+* [Chapter 2: Manage your project changes with Git](02-manage-your-project-changes-with-git.html)
 <!-- Work in progress
 
-* [Chapter 2: Manage your project changes with Git](02-manage-your-project-changes-with-git.html)
 * [Chapter 3: Deploy your application on Heroku](03-deploy-your-application-on-heroku.html)
 * [Chapter 4: Developer workflow for Git and Heroku](04-developer-workflow-for-git-and-heroku.html)
 * [Chapter 5: Setting up an IDE for Play framework (optional)](05-setting-up-an-ide.html)
