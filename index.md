@@ -10,7 +10,7 @@ For developers, the best way to understand the value of Heroku is to use it in a
 
 The workshop is arranged in the following sections:
 
-* [Chapter 0: Setting up your environment](00-setting-up-your-environment.html)
+* [Chapter 0: Setting up your Heroku & application development environment](00-setting-up-your-environment.html)
 * [Chapter 1: Getting started with your app](01-getting-started-with-your-app.html)
 
 <!-- Work in progress
@@ -39,7 +39,7 @@ Other workshops in this series include:
 
 * [http://enterprise-workshop.herokuapp.com/](Enterprise Java Workshop) - building a Java Spring MVC application and integrating it with a Force.com organisation.
 * [http://java-play-workshop.herokuapp.com/](Java Play Workshop) - build a modern Java application using the Play Framework
-
+* [http://git-and-github-workshop.herokuapp.com/](Git and Github workshop) - using the most popular distributed version control system to manage your code and collaborate on projects.
 
 [Back to top...](#top)
 

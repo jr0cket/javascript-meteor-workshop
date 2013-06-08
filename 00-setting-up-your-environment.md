@@ -1,6 +1,6 @@
 <link href="index.css" rel="stylesheet" type="text/css">
 
-# <a id="top">Setting up your environment</a>
+# <a id="top">Setting up your Heroku & application development environment</a>
 
   Before you start developing your application, you will need to have the following:
   
