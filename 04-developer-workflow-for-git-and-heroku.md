@@ -6,6 +6,7 @@
   
   You get into the following cycle:
   
+    # add / change your source code
     git add file(s)
     git commit -m "message"
     git push heroku master 
@@ -13,49 +14,52 @@
 
 ## Modify your project
 
-  To demonstrate this workflow around Git and Heroku, lets make a simple change to the new application.  As its simple you can just use any editor you want, you dont need to set up an IDE as yet (we will do that later).
-
-  In the source code file **app/controlers/Application.java** change the content of the response:
-
-    public static Result index() {
-      return ok("Hello Heroku world");
-    }
-
-  With this change, the index action will now respond with a simple text/plain Hello world response. To see this change, just refresh the home page in your browser:
-
-  Assuming you still have your play console running the app (chapter01) there is no need to compile the code yourself or restart the server to see the modification.  Play automatically reloaded when a change is detected. 
+  To demonstrate this workflow around Git and Heroku, lets make some simple changes to the new application. 
   
-  But what happens when you make a mistake in your code? Let’s try removing one of the double quotes and see what happens:
+  First lets change the code to order the names on the leaderboard in alphabetical order.  Edit the file leaderboard.js and change the sort order in the Template.leaderboard... function:
+  
+    [TODO: insert code here and link to a file/git/git repository with the code changes] 
+  
+  *You can also checkout the ... version of the code in the github repository with the command
+  git checkout chapter04-01*
+  
+[TODO: should I use chapter names or symantically meaningfull names.  Chapter names means its easy to understand which section you are checking out, However if the workshop change the whole project may have to be recreated.  In the long run, symantically meaningfull names are best]
 
-    public static Result index() {
-      return ok("Hello Heroku world);
-    }
-
-Now reload the home page in your browser:
-
-<a href=images/04x01-play-error-hello-world.png"><img src="images/04x01-play-error-hello-world.png"></a>
-
-  Fix the error by adding back in the double quote you removed and save the file.  Check your application is still working by refreshing the browser.
-
-
-## Commit your changes locally
-
-  As you have made a change to your project, commit that change so that its under version control by git.  
-
-    git add .
-    git commit -m "result returning hellow world"
+  Assuming you still have your the Meteor server running locally, it will detect the changes in your code and update your application immediately.  This gives you fast feedback on how your code behaves when its deployed.
+  
+  If all is well with you application, then we can deploy it to Heroku.
 
 
 ## Push your changes to Heroku
 
-  Now the change has been commited locally, you can push it up to Heroku so your live application is up to date with your local app.
+  Use the developer workflow to push this change to Heroku and update your live application:
   
-    git push heroku master
+    git add .
+    git commit -m "leaderboard listed in asscending alphabetically order"
+    git push heroku master 
 
-  This time the deployment should be much quicker as the build tool does not need to bring in any additional library dependencies.
+  Now you have an updated live application.
   
-  Either refresh your browser that displays you live appliction or use `heroku open` from the command line.
+## Modify your project again 
+
+  Next, we add a button to the application to toggle the order of the leaderboard.
 
 
+
+## Push your changs to Heroku again 
+
+  Again, use the developer workflow to push this change to Heroku and update your live application:
+  
+    git add ...
+    git commit -m "leaderboard listed in asscending alphabetically order"
+    git push heroku master 
+
+
+
+
+[TODO: does meteor refresh the browser connected to it when you deploy another release on Heroku, as effectively its a new "instance"]
+
+[Back to top...](#top)
+[Chapter 05 - Tracking deployments]()
 [Back to Workshop home](index.html)
 

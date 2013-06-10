@@ -14,12 +14,12 @@ The workshop is arranged in the following sections:
 * [Chapter 1: Getting started with your app](01-getting-started-with-your-app.html)
 * [Chapter 2: Manage your project changes with Git](02-manage-your-project-changes-with-git.html)
 * [Chapter 3: Deploy your application on Heroku](03-deploy-your-application-on-heroku.html)
+* [Chapter 4: Developer workflow for Git and Heroku](04-developer-workflow-for-git-and-heroku.html)
 
 
 <!-- Work in progress
 
-* [Chapter 4: Developer workflow for Git and Heroku](04-developer-workflow-for-git-and-heroku.html)
-* [Chapter 5: Setting up an IDE for Play framework (optional)](05-setting-up-an-ide.html)
+* [Chapter 5: Trackng your deployment on Heroku](05-)
 * [Chapter 6: Developing the app: Adding Routes](06-developing-the-app-adding-routes.html)
 * [Chapter 7: Developing the app: The Task model](07-developing-the-app-task-model.html)
 * [Chapter 8: Developing the app: Persisting the data](08-developing-the-app-persisting-data.html)
