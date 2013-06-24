@@ -14,7 +14,7 @@
 
   This section will help you set up any of the above requirements for this workshop.  
   
-  *Note: these requiremenst are specific to this workshop.  To use Heroku outside of this workshop, the minimum you need is an Heroku account and a Git client.*
+  *Note: these requirements are specific to this workshop.  To use Heroku outside of this workshop, the minimum you need is an Heroku account, a Git client and an Internet client.*
   
 
 ## Create an Heroku Account (if you dont already have one)
@@ -53,7 +53,7 @@
   
     heroku keys
   
-**Note:  If you already have a key, ensure that it has the email address you used for your heroku account as a comment on the key.**
+*Note:  If you already have a key, ensure that it has the email address you used for your heroku account as a comment on the key.*
   
   
   Should you need or want to create your own public key, you can use the following command:
@@ -66,6 +66,8 @@
     heroku keys:add 
     
   If you have only one public key, this command will just add it to heroku without prompting.  If you have more than one pubic key then heroku will prompt you as to which key you want to add.
+  
+  If you have set up your key and it is being rejected, you may need to [set up a SSH configuration file](http://blog.jr0cket.co.uk/2012/11/managing-multiple-ssh-keys-to-avoid.html).
   
 
 # Setting up Git
