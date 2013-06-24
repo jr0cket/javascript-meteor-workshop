@@ -15,21 +15,16 @@ The workshop is arranged in the following sections:
 * [Chapter 2: Manage your project changes with Git](02-manage-your-project-changes-with-git.html)
 * [Chapter 3: Deploy your application on Heroku](03-deploy-your-application-on-heroku.html)
 * [Chapter 4: Developer workflow for Git and Heroku](04-developer-workflow-for-git-and-heroku.html)
-
-
-<!-- Work in progress
-
 * [Chapter 5: Trackng deployments on Heroku](05-tracking-deployments-on-heorku.html)
 * [Chapter 6: Logs on Heroku](06-logs-on-heroku.html)
 * [Chapter 7: Releases and Rollbacks](07-releases-and-rollbacks.html)
 
-* [Chapter 8: ](08-.html)
-* [Chapter 9: ](09-.html)
+* [Chapter 8: ](08-establishing-multiple-environments.html)
+* [Chapter 09: Managing Multiple Git Repositories](09-managing-multiple-repositories.html)
 
-* [Chapter 11: Working with Heroku Logs](11-working-with-heroku-logs.html)
+<!-- Work in progress
+
 * [Chapter 12: Searching logs with Papertrail add-on (optional)](12-searching-logs-with-papertrail.html)
-* [Chapter 13: Adding a Staging Environment](13-adding-a-staging-environment.html)
-* [Chapter 14: Managing Multiple Git Repositories](14-managing-multiple-repositories.html)
 * [Chapter 15: Collaborating with Github](15-collaborating-with-github.html)
 * [Chapter 16: Monitoring Heroku apps](16-monitoring-heroku-apps.html)
 * [Chapter 17: Performance Monitoring with New Relic (optional)](17-monitoring-your-application-with-new-relic.html)
