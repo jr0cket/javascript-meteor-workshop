@@ -2,11 +2,12 @@
 
 # <a id="top">Chapter 2: Manage project with Git</a>
 
-  When developing software it saves so much time and hassel when you version your code.  Using a distributed version control systems like Git allow you to collaborate effectively too.  You can share specific changes you are making across branches and different repositories.  
+  Developers save a huge amount of time when the source code of a project is vesioned.  Understanding what has changes and who has changed it is an important part of the codebase.  Using a distributed version control systems like Git also allows developers to collaborate effectively too.  You can share specific changes you are making across branches and different repositories.  
   
-  When using a service like Github you can easily collaborate on projects and have easy code reviews via the use of pull requests.  If you are not famililar with Git, please see the tutorial on Using [http://git-and-github-workshop.herokuapp.com/](Git and Github).
+  When using a service like Github you can easily collaborate on projects and have easy code reviews via the use of pull requests.  If you are not famililar with Git, please see the tutorial on Using [Git and Github](http://git-and-github-workshop.herokuapp.com/).
 
-  You should make sure you have your **Git user.name** and ***user.email** set, to make it clear who has created Git commits.  Again, see the  [http://git-and-github-workshop.herokuapp.com/](Git and Github) tutorial for help with this. 
+  You should make sure you have your **Git user.name** and ***user.email** set, to make it clear who has created each commit.  Again, see the [Git and Github](http://git-and-github-workshop.herokuapp.com/) tutorial for help with this. 
+  
 
 ## Version the project with Git
 
@@ -37,12 +38,13 @@
     git add .
     git commit -m "Initial JavaScript Meteor project created"
 
+  *If you do not include the -m option when committing, your default text editor will open so you can enter a commit message.  If not set on MacOSX or Linux, this editor will be vim.  To close vim and write the text, press the Esc key followed by :wq*
 
-  *Make sure the .meteor folder is added to git otherwise Heroku will not recognise your project as a Meteor project*
-  
+
 <a href="images/02x03-git-add-commit.png"><img src="images/02x03-git-add-commit.png" width="640"></a>
 
-  
+  *Make sure the .meteor folder is added to git otherwise Heroku will not recognise your project as a Meteor project*
+    
 
 ## Some files dont belong in your projects
 
@@ -55,8 +57,9 @@
     ~/.gitignore_global
 
   The files and folders you add in the global gitignore file will be excluded from all your projects managed with Git.  The .gitignore file will only exclude files and folders from its specific project.
-  
-  [TODO: the command to add a global gitignore file to your git config]
+   
+    git config --global core.excludesfile '~/.gitignore_global'
+
   
   See the [global folder of the Github gitignore repository](https://github.com/github/gitignore/tree/master/Global) for suitable global gitignore files for your development tools (eg. [Eclipse](https://github.com/github/gitignore/blob/master/Global/Eclipse.gitignore), [Emacs](https://github.com/github/gitignore/blob/master/Global/Emacs.gitignore), [InteliJ](https://github.com/github/gitignore/blob/master/Global/IntelliJ.gitignore), [Netbeans](https://github.com/github/gitignore/blob/master/Global/NetBeans.gitignore)).
 
