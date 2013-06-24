@@ -12,11 +12,11 @@
 
   A git client was added when you installed the Heroku Toolbelt, but you can also use any you have already installed.  
   
-  Now you have created your play project, you will use Git to put your project under version control.  This will create a local git repository which is contained within a folder called *.git*.  It is therefore important that you never delete the .git folder as you will loose your version control history.
+  Now you have created your Meteor project, you will use Git to put your project under version control.  This will create a local git repository which is contained within a folder called *.git*.  It is therefore important that you never delete the .git folder as you will loose your version control history.
 
   Create (initialise) a new git repository inside your project folder
 
-    cd my-project-folder
+    cd leaderboard
     git init
 
   You should now have an empty local git repository in which to manage your changes.  
@@ -35,31 +35,28 @@
   Add the project files to your git repository & commit the changes:
 
     git add .
-    git commit -m "Initial Java Play project created"
+    git commit -m "Initial JavaScript Meteor project created"
 
 
-  *Make sure you add the .meteor folder to git otherwise Heroku will not recognise your project as a Meteor project*
+  *Make sure the .meteor folder is added to git otherwise Heroku will not recognise your project as a Meteor project*
   
-<a href="images/02x03-git-add-git-status.png"><img src="images/02x03-git-add-git-status.png" width="640"></a>
+<a href="images/02x03-git-add-commit.png"><img src="images/02x03-git-add-commit.png" width="640"></a>
 
   
-  Any changes you now make to these project files can be tracked using *git status*.
-
-
-<a href="images/02x04-git-commit.png"><img src="images/02x04-git-commit.png" width="640"></a>
-
 
 ## Some files dont belong in your projects
 
   You can tell git to not include certain files, folders and name patterns, so when you do a *git add .* then these files wont be added by mistake.
   
-  This is done by creating a *.gitignore* file in your project.  When using Play to create your projects then an appropriate .gitignore file is created for you, with the default file and folder exclusions for your Play project.
+  This is done by creating a *.gitignore* file in your project.  When you create an application using the meteor command line, it creates .gitignore file for you, with the default file and folder exclusions for your Meteor project.
   
-  If you are using an editor or IDE that creates its own files and folders that you dont want to include in your project, you should create a global git ignore file in your home directory.
+  If you are using an editor, IDE or operating system that creates its own files and folders that you dont want to include in your project, you should create a global git ignore file in your home directory.
   
     ~/.gitignore_global
 
   The files and folders you add in the global gitignore file will be excluded from all your projects managed with Git.  The .gitignore file will only exclude files and folders from its specific project.
+  
+  [TODO: the command to add a global gitignore file to your git config]
   
   See the [global folder of the Github gitignore repository](https://github.com/github/gitignore/tree/master/Global) for suitable global gitignore files for your development tools (eg. [Eclipse](https://github.com/github/gitignore/blob/master/Global/Eclipse.gitignore), [Emacs](https://github.com/github/gitignore/blob/master/Global/Emacs.gitignore), [InteliJ](https://github.com/github/gitignore/blob/master/Global/IntelliJ.gitignore), [Netbeans](https://github.com/github/gitignore/blob/master/Global/NetBeans.gitignore)).
 
