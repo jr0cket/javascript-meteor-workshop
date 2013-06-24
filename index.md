@@ -43,7 +43,7 @@ Other workshops in this series include:
 [Back to Workshop home](/index.html)
 
 
-    Document Date: June 05, 2013
-    Document Home: http://javascript-meteor-workshop.herokuapp.com
-    Github repo  : https://github.com/salesforce-heroku-workshops/javascript-meteor-workshop
+    Last update on : June 24 2013
+    Workshop home  : http://javascript-meteor-workshop.herokuapp.com
+    Github repo    : https://github.com/salesforce-heroku-workshops/javascript-meteor-workshop
 
