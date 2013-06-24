@@ -29,10 +29,10 @@
 
 ## You meteor app source code files
 
- The [http://meteor.com/examples/leaderboard](Meteor leaderboard example) we used to create the app is very simple, it consists of just three files
+ The [Meteor leaderboard example](http://meteor.com/examples/leaderboard) we used to create the app is very simple, it consists of just three files
  
- **index.html** - the main page, consisting of HTML markup and {{template code}} from the [http://handlebarsjs.com/](handlebarsjs) JavaScript library.
- **index.js**   - the JavaScript code, including population of a [https://github.com/meteor/meteor/tree/master/packages/minimongo](minimongo.js) datastore
+ **index.html** - the main page, consisting of HTML markup and {{template code}} from the [handlebarsjs](http://handlebarsjs.com/) JavaScript library.
+ **index.js**   - the JavaScript code, including population of a [minimongo.js](https://github.com/meteor/meteor/tree/master/packages/minimongo) datastore
  **index.css**  - Style definitions in standard CSS format
 
  Part of Meteor is a JavaScript implementation of the MongoDB NoSQL database.  This holds the names and scores of people on our leaderboard.  This is changed to a MongoDB database when deployed on Heroku.
