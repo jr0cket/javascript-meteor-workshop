@@ -20,10 +20,9 @@
   
     [TODO: insert code here and link to a file/git/git repository with the code changes] 
   
-  *You can also checkout the ... version of the code in the github repository with the command
-  git checkout chapter04-01*
+  *Rather than type in the code, you can also checkout the ... branch of the code in the github repository with the command git checkout list-assending* 
   
-[TODO: should I use chapter names or symantically meaningfull names.  Chapter names means its easy to understand which section you are checking out, However if the workshop change the whole project may have to be recreated.  In the long run, symantically meaningfull names are best]
+[TODO: create a project with branches for the different sections of the workshop, using symantically meaningful names.]
 
   Assuming you still have your the Meteor server running locally, it will detect the changes in your code and update your application immediately.  This gives you fast feedback on how your code behaves when its deployed.
   
@@ -56,8 +55,7 @@
 
 
 
-
-[TODO: does meteor refresh the browser connected to it when you deploy another release on Heroku, as effectively its a new "instance"]
+[TODO: check if meteor refreshs the browser connected to it when you deploy another release on Heroku.  As it effectively is a new "instance", does it know about the cients connected to it].
 
 [Back to top...](#top)
 [Chapter 05 - Tracking deployments]()

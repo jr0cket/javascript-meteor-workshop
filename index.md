@@ -19,12 +19,13 @@ The workshop is arranged in the following sections:
 
 <!-- Work in progress
 
-* [Chapter 5: Trackng your deployment on Heroku](05-)
-* [Chapter 6: Developing the app: Adding Routes](06-developing-the-app-adding-routes.html)
-* [Chapter 7: Developing the app: The Task model](07-developing-the-app-task-model.html)
-* [Chapter 8: Developing the app: Persisting the data](08-developing-the-app-persisting-data.html)
-* [Chapter 9: Using Heroku Postgres database](09-using-postgres-database.html)
-* [Chapter 10: Releases and Rollbacks](10-releases-and-rollbacks.html)
+* [Chapter 5: Trackng deployments on Heroku](05-tracking-deployments-on-heorku.html)
+* [Chapter 6: Logs on Heroku](06-logs-on-heroku.html)
+* [Chapter 7: Releases and Rollbacks](07-releases-and-rollbacks.html)
+
+* [Chapter 8: ](08-.html)
+* [Chapter 9: ](09-.html)
+
 * [Chapter 11: Working with Heroku Logs](11-working-with-heroku-logs.html)
 * [Chapter 12: Searching logs with Papertrail add-on (optional)](12-searching-logs-with-papertrail.html)
 * [Chapter 13: Adding a Staging Environment](13-adding-a-staging-environment.html)
