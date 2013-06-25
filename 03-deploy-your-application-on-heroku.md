@@ -60,6 +60,9 @@
 
     git push heroku master
 
+
+  *Note: As this workshop uses a buildpack that commissinos an addon during the deployment cycle, you need to add a credit card to your heroku account or the git push will fail.*
+
   Everything you committed to your local repository will now be pushed up to the remote Heroku git repository securely (using a secure shell connection).  Git also compresses the commits before sending them to Heroku, so that the minimum bandwidth is used. Once the Heroku repository is updated with the push, this will trigger the building, deploying and running of your application automatically.
 
   The first time you deploy your project, the environment will be set up on Heroku.  Depending on the size of your application and framework, this could take a little time.  In this workshop as we are using Meteor it should talk less than 30 seconds.
