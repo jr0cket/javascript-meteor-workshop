@@ -103,9 +103,9 @@ Run the following command in a terminal to download and install Meteor.
 A specific Microsoft windows download is available at: [http://win.meteor.com/].
 
 
-### Test Play framework is working
+### Test Meteor framework is working
 
-  Test play is configured correctly by running the following command:
+  Test meteor is configured correctly by running the following command:
   
     meteor
     
