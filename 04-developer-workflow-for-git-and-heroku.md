@@ -14,19 +14,18 @@
 
 ## Modify your project
 
-  To demonstrate this workflow around Git and Heroku, lets make some simple changes to the new application. 
+  To demonstrate this workflow around Git and Heroku, lets make a simple changes to the new application. 
   
-  First lets change the code to order the names on the leaderboard in alphabetical order.  Edit the file leaderboard.js and change the sort order in the Template.leaderboard... function:
+  Add a title to the leaderboard page, so we know what the leaderboard is all about.  Edit the **leaderboard.html** file and in the body section add a title using the h1 tag:
   
-    [TODO: insert code here and link to a file/git/git repository with the code changes] 
-  
-  *Rather than type in the code, you can also checkout the ... branch of the code in the github repository with the command git checkout list-assending* 
-  
-[TODO: create a project with branches for the different sections of the workshop, using symantically meaningful names.]
+    <body>
+      <h1>Our favorite scientists</h1>
+      <div id="outer">
+        {{> leaderboard}}
+      </div>
+    </body>
 
-  Assuming you still have your the Meteor server running locally, it will detect the changes in your code and update your application immediately.  This gives you fast feedback on how your code behaves when its deployed.
-  
-  If all is well with you application, then we can deploy it to Heroku.
+  When you save the file, if you have the meteor server still running locally then you will see the webpage pointing to that server update automatically.  This is one of the great features of Meteor, fast feedback.
 
 
 ## Push your changes to Heroku
@@ -34,15 +33,21 @@
   Use the developer workflow to push this change to Heroku and update your live application:
   
     git add .
-    git commit -m "leaderboard listed in asscending alphabetically order"
+    git commit -m "title added to leaderboard"
     git push heroku master 
 
   Now you have an updated live application.
-  
+
+
 ## Modify your project again 
-
-  Next, we add a button to the application to toggle the order of the leaderboard.
-
+  
+  The title is not placed in a great position, so lets update the stylesheet.  Edit the leaderboard.css file and add the following style definition (after the first style definition for body): 
+  
+    body > h1 {
+    width: 80%;
+    margin-left: 200px;
+    margin-right: 200px;
+    }
 
 
 ## Push your changs to Heroku again 
@@ -50,8 +55,31 @@
   Again, use the developer workflow to push this change to Heroku and update your live application:
   
     git add ...
-    git commit -m "leaderboard listed in asscending alphabetically order"
+    git commit -m "style added for heading level 1"
     git push heroku master 
+
+
+
+  
+<!--     
+  
+  change the code to order the names on the leaderboard in alphabetical order.  Edit the file leaderboard.js and change the sort order in the Template.leaderboard... function:
+  
+    [TODO: insert code here and link to a file/git/git repository with the code changes] 
+
+
+  *Rather than type in the code, you can also checkout the ... branch of the code in the github repository with the command git checkout list-assending* 
+  
+
+[TODO: create a project with branches for the different sections of the workshop, using symantically meaningful names.]
+-->
+
+
+
+  
+
+
+
 
 
 
