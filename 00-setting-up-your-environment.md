@@ -7,7 +7,7 @@
   * An Internet connection
   * An Heroku account
   * The Heroku toolbelt (`heroku`)
-  * A credit card (for using addons - you will not be charged)
+  * **A credit card** (for using addons - you will not be charged)
   * A public key added to heroku (`heroku keys`)
   * The Meteor framework (`meteor`)
   * A text editor (anything will do)
