@@ -18,7 +18,7 @@ The workshop is arranged in the following sections:
 * [Chapter 5: Trackng deployments on Heroku](05-tracking-deployments-on-heroku.html)
 * [Chapter 6: Logs on Heroku](06-logs-on-heroku.html)
 * [Chapter 7: Releases and Rollbacks](07-releases-and-rollbacks.html)
-* [Chapter 8: Establishing multiple environments](08-establishing-multiple-environments.html)
+* [Chapter 8: Establishing multiple environments](08-adding-a-staging-environment.html)
 * [Chapter 9: Managing Multiple Git Repositories](09-managing-multiple-repositories.html)
 
 
