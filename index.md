@@ -15,7 +15,7 @@ The workshop is arranged in the following sections:
 * [Chapter 2: Manage your project changes with Git](02-manage-your-project-changes-with-git.html)
 * [Chapter 3: Deploy your application on Heroku](03-deploy-your-application-on-heroku.html)
 * [Chapter 4: Developer workflow for Git and Heroku](04-developer-workflow-for-git-and-heroku.html)
-* [Chapter 5: Trackng deployments on Heroku](05-tracking-deployments-on-heorku.html)
+* [Chapter 5: Trackng deployments on Heroku](05-tracking-deployments-on-heroku.html)
 * [Chapter 6: Logs on Heroku](06-logs-on-heroku.html)
 * [Chapter 7: Releases and Rollbacks](07-releases-and-rollbacks.html)
 * [Chapter 8: Establishing multiple environments](08-establishing-multiple-environments.html)
