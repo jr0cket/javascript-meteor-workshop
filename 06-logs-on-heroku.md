@@ -54,9 +54,9 @@ Example:
 ## Keeping your logs around
 
   Heroku only keeps logs for a short time as logs take up a lot of space and most of the time you wont need to look at them.
-    
+<!--     
 <a href="images/11x01-heroku-addons-logging.png"><img src="images/11x01-heroku-addons-logging.png"></a>  
-  
+-->   
   If you need to keep you logs around for more time, there are several add-ons that will persist your logs.  This can be a requirement if your company works in a very regulated industry.
 
   * [Logentries](https://addons.heroku.com/logentries)
