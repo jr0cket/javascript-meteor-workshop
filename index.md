@@ -32,6 +32,9 @@ The workshop is arranged in the following sections:
 
 -->
 
+
+<img src="images/heroku-developer-workflow--create-push.png">
+
 Other workshops in this series include:
 
 * [http://enterprise-workshop.herokuapp.com/](Enterprise Java Workshop) - building a Java Spring MVC application and integrating it with a Force.com organisation.
